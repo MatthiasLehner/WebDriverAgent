@@ -21,6 +21,7 @@
 
 - (void)setUp
 {
+  NSLog(@"THIS IS THE MAIN RUNLOOP");
   [super setUp];
   self.testedApplication = (id)FBApplicationDouble.new;
   self.session = [FBSession sessionWithApplication:self.testedApplication];
